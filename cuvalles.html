@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+  <nav class="navbar navbar-light navbar-expand-lg" style="background-color: orange">
+    <div class="container">
+
+       <a href="index.html" class="navbar-brand">
+        <img src="images/cusmart logo.png"   width="195" height="auto" >
+      </a>
+
+      <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="menu-principal">
+      <ul class="navbar-nav ml-auto">  
+      <li class="nav-item"><a href="cucei.html" class="nav-link" role="button">CUCEI</a></li>
+      <li class="nav-item"><a href="cucea.html" class="nav-link" role="button">CUCEA</a></li>
+      <li class="nav-item"><a href="cucsh.html" class="nav-link" role="button">CUCSH</a></li>
+      <li class="nav-item"><a href="cucba.html" class="nav-link" role="button">CUCBA</a></li>
+      <li class="nav-item"><a href="cuaad.html" class="nav-link" role="button">CUAAD</a></li>
+      <li class="nav-item"><a href="cutonala.html" class="nav-link" role="button">CUTONALA</a></li>
+      <li class="nav-item"><a href="cucosta.html" class="nav-link" role="button">CUCOSTA</a></li>
+      <li class="nav-item"><a href="cuvalles.html" class="nav-link" role="button">CUVALLES</a></li>      
+      <li class="nav-item"><a href="cunorte.html" class="nav-link" role="button">CUNORTE</a></li>
+    </ul>    
+   </div>
+        </div>    
+  </nav>
+
+
+  
+ 
+
+  <div class="card">
+  <img class="card-img-top shadow-lg" src="images/cuvalles.jpg" alt="Card image cap" width="200" height="300"  style="background-color: #FFFFE0">
+  <div class="card-body" style="background-color: #FFFFE0"> 
+      <h4>UNIVERSIDAD DE GUADALAJARA</h4>
+      <h4>CENTRO UNIVERSITARIO DE LOS VALLES</h4>
+      <p>El Centro Universitario de los Valles es una entidad de la Universidad de Guadalajara, cuyo compromiso es la formación integral de líderes socialmente responsables. A través del cumplimiento de sus funciones sustantivas, responde a las necesidades locales, mediante al desarrollo de la cultura emprendedora, el respeto a la identidad regional y la generación y aplicación de nuevos conocimientos que incidan en el desarrollo sustentable de la región Valles. <br>Somos un Centro Universitario con reconocimiento regional, nacional e internacional por nuestra labor educativa, de investigación científica  y de contribución al desarrollo sustentable desde las áreas tecnológicas, económico administrativas, humanidades y de salud. Nuestros egresados impactan en las instituciones y organizaciones locales, en el marco de valores de responsabilidad, equidad, justicia y democracia.</p>
+      <p>Carretera Guadalajara - Ameca Km. 45.5, C.P. 46600, Ameca, Jalisco, México.</p>
+      <b>Telefono: +52 (375) 7580 500 extensión. 9</b>
+</div>
+
+   <div class="jumbotron col-md-12" style="background-color:   #F0F8FF" >
+    <div class="well-lg">
+      <form>
+        <b>Busqueda de Profesores:&nbsp;
+          <input type="text">
+          <select id="carrera" class="btn btn-sm btn-default dropdown-toggle" name="carrera">
+            <option value="null">Carrera</option>
+            <option value="INCO">INCO</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+
+          </select>
+          <select id=materia class="btn btn-sm btn-default dropdown-toggle" name="materia">
+            <option value="null">Materia</option>
+            <option value="INCO">Programacion</option>
+            <option value="INIF">Estructura de Datos</option>
+             <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+            <option value="INIF">INIF</option>
+          </select>
+          <button type="button" class="btn btn-outline-primary">Buscar</button>
+        </form>
+        </div>
+      </div>
+  
+
+
+    	<table class="table table-condensed" id="resultado">
+  <tbody>
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  
+  
+  
+  
+  
+  <h6>CUSMART es un proyecto independiente, y no guarda relación con la Universidad de Guadalajara, ni con Facebook</h6>
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

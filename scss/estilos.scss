@@ -1,0 +1,13 @@
+//PATRON DE COLORED  
+$texto:black;
+$principal:AliceBlue ;
+$secundario:red;
+
+body{
+	background: $principal;
+	color:$texto;
+}
+
+.card{
+	background: $principal;
+}
