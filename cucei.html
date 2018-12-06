@@ -59,37 +59,11 @@
 
    <div class="jumbotron col-md-12" style="background-color:   #F0F8FF" >
     <div class="well-lg">
-      <form>
-        <b>Busqueda de Profesores:&nbsp;
-          <input type="text">
-          <select id="carrera" class="btn btn-sm btn-default dropdown-toggle" name="carrera">
-            <option value="null">Carrera</option>
-            <option value="INCO">INCO</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-
-          </select>
-          <select id=materia class="btn btn-sm btn-default dropdown-toggle" name="materia">
-            <option value="null">Materia</option>
-            <option value="INCO">Programacion</option>
-            <option value="INIF">Estructura de Datos</option>
-             <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-            <option value="INIF">INIF</option>
-          </select>
-          <button type="button" class="btn btn-outline-primary">Buscar</button>
+      <form id="form1" name="form1" method="post">
+        <b>Nombre del Profesor como aparece en siiau:&nbsp;
+          <input type="text" name="nombre" id="nombre">
+          
+          <button type="button" class="btn btn-outline-primary" id="boton">Buscar</button>
         </form>
         </div>
       </div>
@@ -116,5 +90,6 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/cucei.js"></script>
   </body>
 </html>
